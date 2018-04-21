@@ -7,7 +7,7 @@ html {
     background-size: cover;
     font-family: 'Helvetica Neue', sans-serif;
 }	
- header {
+ .header {
  	text-align: center;
     text-shadow: transparent;
     color: white;
@@ -15,7 +15,7 @@ html {
 
  }
 
- header h2 {
+ .header h2 {
     font-family: trebuchet ms;
     color: #A6ACAF;
     padding: 3px; 
@@ -74,14 +74,14 @@ html {
 	border-radius: 50%;
 }
  
-footer {
-	text-align: center;
+.footer {
+    text-align: center;
     text-shadow: transparent;
     color: white;
     font-size: 10px;
 } 
-footer h2 {
-	font-family: trebuchet ms;
+.footer h2 {
+    font-family: trebuchet ms;
     color: black;
     padding: 3px; 
     margin-bottom: 10px;

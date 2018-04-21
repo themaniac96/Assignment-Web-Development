@@ -1,0 +1,56 @@
+
+html {
+	background: url(../images/social.jpg);
+	background-repeat:  no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Helvetica Neue', sans-serif;
+}	
+.header a{
+    text-decoration: none;
+    font-size: 20px;
+    color:  #c0392b;
+
+
+}
+.header a:hover{
+    background: #e8f6f3;
+    border: 1px solid black;
+     padding : 3px 5px;
+ 
+}
+.container{
+     width: 400px;
+    height: 530px;
+    margin: 0 auto;
+    max-width: 500px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    position: relative;
+    border-radius: 5%;
+    color: #FFF; 
+    background: rgba(0,0,0,0.2);
+    padding: 25px;
+    text-align: center;
+
+}
+
+.footer {
+    text-align: center;
+    text-shadow: transparent;
+    color: white;
+    font-size: 10px;
+} 
+.footer h2 {
+    font-family: trebuchet ms;
+    color: black;
+    padding: 3px; 
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 600px) {
+
+    .container{ width: 60; height:50; margin-bottom: 1%; padding: 1%; }
+    .container h1{flex-direction: column;}
+    .footer{font-size: 10px;}

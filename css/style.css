@@ -1,0 +1,93 @@
+html {
+	background: url(../images/3333.jpg);
+	background-repeat:  no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Helvetica Neue', sans-serif;
+}	
+ header {
+ 	text-align: center;
+    text-shadow: transparent;
+    color: white;
+    font-size: 30px;
+
+ }
+
+ header h2 {
+    font-family: trebuchet ms;
+    color: #A6ACAF;
+    padding: 3px; 
+    margin-bottom: 10px;
+    background: linear-gradient(to left,#566573,#ba4a00,#2471a3,#cb4335);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}  
+
+
+.nav ul {
+	display: inline-block;
+	float: right;
+	justify-content: flex-end;
+}
+
+.nav ul li {
+	display: inline-flex;
+	padding: 8px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+
+}
+.nav ul li a
+ {
+	text-decoration: none;
+	color: #060605;
+    font-family: Fertigo;
+
+}
+
+.nav ul li a:hover{
+	background: #e8f6f3;
+	border: 1px solid black;
+	padding : 3px 5px;
+}
+
+
+.prof-box {
+	width: 300px;
+	height: 300px;
+	border-radius: 5%;
+	color: #FFF;
+	background: rgba(0,0,0,0.2);
+	margin:0 auto;
+	margin-top:180px;
+	padding: 25px;
+	text-align: center;
+	 
+
+}
+
+.prof-pic {
+	width: 200px;
+	height: 180px;
+	border-radius: 50%;
+}
+ 
+footer {
+	text-align: center;
+    text-shadow: transparent;
+    color: white;
+    font-size: 10px;
+} 
+footer h2 {
+	font-family: trebuchet ms;
+    color: black;
+    padding: 3px; 
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 600px) {
+	.nav ul{flex-direction: column;}
+	.nav ul li{ width: 60; margin-bottom: 1%; padding: 1%; }
+	.nav ul li a{flex-direction: column;}
+	.prof-box{ width: 50px; height: 50px; }

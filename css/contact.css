@@ -1,0 +1,82 @@
+html {
+	background: url(../images/contact.jpg);
+	background-repeat:  no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color:#777
+}
+.header a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #212f3c;
+
+}
+.header a:hover{
+    background: #e8f6f3;
+    border: 1px solid black;
+    padding : 3px 5px;
+}
+ .container {
+ 	width: 100%;
+ 	margin: 0 auto;
+ 	max-width: 500px;
+ 	position: relative; 
+ 	margin-top: 100px;
+ }
+
+ #contact {
+	background: #f2f3f4 ;
+	padding:25px;
+	margin:50px 0;
+	margin-top: 150px;
+	position: relative;
+}
+#contact h2 {
+	color:#d4ac0d;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea {
+	width:95%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:5 5 5px;
+	padding:15px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+ fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+footer {
+	text-align: center;
+    text-shadow: transparent;
+    color: white;
+    font-size: 10px;
+} 
+footer h2 {
+	font-family: trebuchet ms;
+    color: black;
+    padding: 3px; 
+    margin-bottom: 10px;
+ }

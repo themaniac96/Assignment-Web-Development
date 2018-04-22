@@ -43,7 +43,7 @@ html {
  {
 	text-decoration: none;
 	color: #060605;
-    font-family: Fertigo;
+    font-family: serif;
 
 }
 
@@ -76,7 +76,6 @@ html {
  
 .footer {
     text-align: center;
-    text-shadow: transparent;
     color: white;
     font-size: 10px;
 } 

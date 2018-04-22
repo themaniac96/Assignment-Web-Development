@@ -1,10 +1,7 @@
 html {
 	background: url(../images/3333.jpg);
-	background-repeat:  no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+	background-repeat:  no-repeat center center fixed; /*prevents from repeating background*/
+    background-size: cover;/*specify the size of background image*/
     font-family: 'Helvetica Neue', sans-serif;
 }	
  .header {
@@ -21,7 +18,7 @@ html {
     padding: 3px; 
     margin-bottom: 10px;
     background: linear-gradient(to left,#566573,#ba4a00,#2471a3,#cb4335);
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;/*makes the header bar transparent*/
     -webkit-background-clip: text;
 }  
 
@@ -47,14 +44,14 @@ html {
 
 }
 
-.nav ul li a:hover{
+.nav ul li a:hover{/*adding hover effect for navigation bar*/
 	background: #e8f6f3;
 	border: 1px solid black;
 	padding : 3px 5px;
 }
 
 
-.prof-box {
+.prof-box {/*editing the profile box*/
 	width: 300px;
 	height: 300px;
 	border-radius: 5%;
@@ -68,7 +65,7 @@ html {
 
 }
 
-.prof-pic {
+.prof-pic {/*editing profile picture*/
 	width: 200px;
 	height: 180px;
 	border-radius: 50%;
@@ -85,7 +82,7 @@ html {
     padding: 3px; 
     margin-bottom: 10px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {/*For making page responsive with max-width 600px*/
 	.header{font-size: 20px;}
 	.nav ul li{ width: 60; margin-bottom: 1%; padding: 1%; }
 	.nav ul li a{flex-direction: column; font-size: 15px;}

@@ -2,9 +2,6 @@
 html {
 	background: url(../images/social.jpg);
 	background-repeat:  no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     font-family: 'Helvetica Neue', sans-serif;
 }	
@@ -15,13 +12,13 @@ html {
 
 
 }
-.header a:hover{
-    background: #e8f6f3;
+.header a:hover{/*adding hover*/
+    background: #e8f6f3;/*background color at the time of hover*/
     border: 1px solid black;
      padding : 3px 5px;
  
 }
-.container{
+.container{/*editing the container*/
      width: 400px;
     height: 530px;
     margin: 0 auto;
@@ -37,7 +34,7 @@ html {
 
 }
 
-.footer {
+.footer {/*editing the footer*/
     text-align: center;
     text-shadow: transparent;
     color: white;
@@ -49,7 +46,7 @@ html {
     padding: 3px; 
     margin-bottom: 10px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {/**For making page responsive with max-width 600px*/
 
     .container{ width: 60; height:50; margin-bottom: 1%; padding: 1%; }
     .container h1{flex-direction: column;}

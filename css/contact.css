@@ -1,9 +1,6 @@
 html {
 	background: url(../images/contact.jpg);
 	background-repeat:  no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     font-family: 'Helvetica Neue', sans-serif;
 }
@@ -33,7 +30,7 @@ body {
  	margin-top: 100px;
  }
 
- #contact {
+ #contact {/*edit the contact form*/
 	background: #f2f3f4 ;
 	padding:25px;
 	margin:50px 0;
@@ -55,9 +52,7 @@ body {
 }
 
 #contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact textarea:hover {
-	-webkit-transition:border-color 0.3s ease-in-out;
-	-moz-transition:border-color 0.3s ease-in-out;
-	transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;/*adding transitions in the hover*/
 	border:1px solid #AAA;
 }
 
@@ -68,7 +63,7 @@ body {
 	padding: 0;
 	width: 100%;
 }
-iframe {
+iframe {/*editing the map*/
 	width: 100%;
 	height: 400px;
 

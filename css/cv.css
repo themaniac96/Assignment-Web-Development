@@ -1,9 +1,6 @@
 html {
 	background: url(../images/3333.jpg);
 	background-repeat:  no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     font-family: 'Helvetica Neue', sans-serif;
 }	
@@ -13,7 +10,7 @@ html {
     color: #212f3c;
 
 }
-.header a:hover{
+.header a:hover{/*adding hover effect for header*/
     background: #e8f6f3;
     border: 1px solid black;
     padding : 3px 5px;
@@ -28,7 +25,7 @@ html {
     position: relative;
     border-radius: 5%;
     color: #FFF; 
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);/*setting the background color */
     padding: 25px;
     text-align: center;
 
@@ -43,7 +40,7 @@ html {
 	font-family: sans-serif;
 }
 .container h4{
-
+    font-family: sans-serif;
 }
 .footer {
     text-align: center;
@@ -57,7 +54,7 @@ html {
     padding: 3px; 
     margin-bottom: 10px;
  }   
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {/*making page responsive with max-width 600px*/
 
     .container{ width: 60; height:50; margin-bottom: 1%; padding: 1%; }
     .container h1{flex-direction: column;}
